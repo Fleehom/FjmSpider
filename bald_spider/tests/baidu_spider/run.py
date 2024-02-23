@@ -15,10 +15,10 @@ async def run():
 
 
 if __name__ == '__main__':
-    start_time = round(time.time())
-    logger.info(f'<---爬虫开始时间：{start_time}--->')
+    # start_time = round(time.time())
+    # logger.info(f'<---爬虫开始时间：{start_time}--->')
     asyncio.run(run())
-    end_time = round(time.time())
-    logger.info(f'<---爬虫结束时间：{end_time}--->')
-    use_time = end_time - start_time
-    logger.info(f'<---爬虫总用时：{use_time}秒--->')
+    # end_time = round(time.time())
+    # logger.info(f'<---爬虫结束时间：{end_time}--->')
+    # use_time = end_time - start_time
+    # logger.info(f'<---爬虫总用时：{use_time}秒--->')
